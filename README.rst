@@ -12,7 +12,7 @@ WebOb Entry points
         :target: https://pypi.python.org/pypi/webobentrypoints
 
 
-PasteDeploy entry points for WebOb WSGI apps.
+**PasteDeploy entry points for WebOb WSGI apps**
 
 * Free software: BSD license
 * Documentation: https://webobentrypoints.readthedocs.org.
@@ -35,7 +35,7 @@ egg:webobentrypoints#staticdir
 Example usage
 -------------
 
-Here is an example of a ini file configuration using
+Here is an example of a ini file configuration using the staticdir and the proxy apps::
 
     [server:main]
     use = egg:gearbox#wsgiref
