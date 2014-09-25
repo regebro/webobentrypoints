@@ -13,7 +13,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='webobentrypoints',
-    version='0.1.0',
+    version='0.2.0.dev0',
     description='PasteDeploy entry points for WebOb WSGI apps and filters.',
     long_description=readme + '\n\n' + history,
     author='Lennart Regebro',
